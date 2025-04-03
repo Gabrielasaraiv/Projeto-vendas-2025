@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    @if(auth()->check())
     <nav class="navbar navbar-expand-lg navbar-light bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
             <a href="" class="navbar-brand">Bootstrap</a>
@@ -29,6 +30,7 @@
             </div>
         </div>
     </nav>
+    @endif
 
     {{ $slot }}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
