@@ -5,7 +5,7 @@
    <h1> {{ auth()->user()->email }}</h1>
 
 
-   {{ auth()->user()- }}
+   {{ auth()->user() }}
 
 
 </div>
