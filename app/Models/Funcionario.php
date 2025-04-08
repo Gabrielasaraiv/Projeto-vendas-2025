@@ -15,4 +15,6 @@ class Funcionario extends Model
         'cargo',
         'user_id'
     ];
+
+    
 }
